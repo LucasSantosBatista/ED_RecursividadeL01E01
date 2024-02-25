@@ -13,7 +13,7 @@ public class NaturalController {
 			//Exibe teste
 			System.out.println(num);
 			
-			//Recursiva somando total + (total - 1)
+			//Recursiva somando total + (contagem - 1)
 			return num + somaNatural(num - 1);
 		}
 	}
